@@ -1,0 +1,70 @@
+.bg-info {
+  background-color: #EA9C00!important;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.landing {
+  position: relative;
+  background: url("./img/showcase.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 93vh;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #EA9C00!important;
+}
+
+/* responsive, form small screens, use 10px font size */
+@media (max-width: 479px) {
+  body {
+      font-size: 10px;
+      font-weight: 400;
+  }
+  h1 {
+    font-size: 40px !important;
+  }
+  p {
+    font-size: 15px !important;
+    font-weight: 100;
+  }
+  .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+}
+
+/* Menu */
+.container-login100-form-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap-login100 {
+  width: 560px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
